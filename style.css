@@ -87,7 +87,7 @@ nav > a {
 
  main {
      min-width: 300px;
-     max-width: 1300px;
+     max-width: 1450px;
      margin: auto;
      margin-bottom: 30px;
      padding: 20px;
@@ -102,9 +102,15 @@ nav > a {
      font-family: var(--fonte-padrão);
      font-weight: normal;
      font-size: 3em;
+     font-size: 5em;
+     text-align: center;
  }
 
  main > h2 {
      font-family: var(--fonte-padrão);
      color: var(--cor4);
+     font-size: 2em;
+     font-weight: normal;
+     background-image: -o-linear-gradient(to right,var(--cor1),transparent);
+
  }
