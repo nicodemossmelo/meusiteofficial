@@ -74,8 +74,37 @@ nav {
 nav > a {
     color: white;
     padding: 20px;
-    border-radius: 10px;
-    text-decoration: none;
+    border-radius: 7px;
+    text-decoration:none;
     font-weight: bold;
     transition-duration: .5s;
 }
+
+ nav > a:hover {
+     background-color: var(--cor2);
+     color: var(--cor5);
+ }
+
+ main {
+     min-width: 300px;
+     max-width: 1300px;
+     margin: auto;
+     margin-bottom: 30px;
+     padding: 20px;
+     background-color: white;
+     box-shadow: 0px 0px 10px black;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+
+ main > h1 {
+     color: var(--cor5);
+     font-family: var(--fonte-padrão);
+     font-weight: normal;
+     font-size: 3em;
+ }
+
+ main > h2 {
+     font-family: var(--fonte-padrão);
+     color: var(--cor4);
+ }
