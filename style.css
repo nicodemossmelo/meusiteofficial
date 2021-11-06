@@ -25,6 +25,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 body{
@@ -46,7 +47,7 @@ header{
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 5em;
+    font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px black;
@@ -54,7 +55,7 @@ header > h1 {
 
 header > p {
     font-family: var(--fonte-padrão);
-    font-size: 2em;
+    font-size: 1.2em;
     color: white;
     max-width: 800px;
     padding-right: 80px;
@@ -101,14 +102,14 @@ nav > a {
      color: var(--cor5);
      font-family: var(--fonte-padrão);
      font-weight: normal;
-     font-size: 3em;
+     font-size: 1.8em;
      text-align: center;
  }
 
  main  h2 {
      font-family: var(--fonte-destaque);
      color: var(--cor4);
-     font-size: 2em;
+     font-size: 1.3em;
      font-weight: bold;
      background-image: linear-gradient(to left,var(--cor5), transparent);
      text-indent: 8px;
@@ -117,11 +118,11 @@ nav > a {
  }
 
  main p {
-     margin: 15px 0px;]
+     margin: 15px 0px;
      text-align: justify;
      text-indent: 30px;
-     font-size: 1.2em;
-     line-height: 1.4em;
+     font-size: 1.5em;
+     line-height: 2em;
 
 
  }
@@ -144,6 +145,8 @@ nav > a {
      color:var(--cor4);
  }
 
+ main img {width: 100%;}
+
  div.video {
      background-color: var(--cor5);
      margin:  0px -20px 30px -20px;
@@ -161,14 +164,15 @@ nav > a {
  }
 
  aside {
-     background-color: var(--cor5);
+     background-color: var(--cor3);
      padding: 10px;
      border-radius: 10px;
      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.514); 
+     text-align: justify;
  }
 
  aside h3 {
-     background-color: var(--cor4);
+     background-color: var(--cor5);
      color: white;
      padding: 10px;
      margin: -10px -10px 0px -10px;
@@ -180,12 +184,17 @@ nav > a {
  aside p {
      font-size:2em;
      font-weight: bold;
-     color:var(--cor1)
+     color:white
  }
 
  footer {
+     background-color: var(--cor5);
+     color: white;
      text-align: center;
+     font-size: 1.2em;
      padding: 10px;
-     margin: 20px;
-     font-size: 1.6em;
+ }
+
+ footer p {
+     text-align: center;
  }
