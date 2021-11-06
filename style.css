@@ -67,7 +67,7 @@ header > p {
 
 nav {
     background-color: var(--cor5);
-    padding: 10px;
+    padding: 8px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.582);
 }
 
@@ -161,7 +161,7 @@ nav > a {
  }
 
  aside {
-     background-color: var(--cor1);
+     background-color: var(--cor5);
      padding: 10px;
      border-radius: 10px;
      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.514); 
@@ -180,5 +180,12 @@ nav > a {
  aside p {
      font-size:2em;
      font-weight: bold;
-     color:white
+     color:var(--cor1)
+ }
+
+ footer {
+     text-align: center;
+     padding: 10px;
+     margin: 20px;
+     font-size: 1.6em;
  }
