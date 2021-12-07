@@ -57,7 +57,7 @@ header > p {
     font-family: var(--fonte-padrão);
     font-size: 0.8em;
     color: white;
-    max-width: 800px;
+    max-width: 600px;
     padding-right: 80px;
     padding-left: 10px;
     margin: auto;
