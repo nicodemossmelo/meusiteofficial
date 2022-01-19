@@ -102,14 +102,14 @@ nav > a {
      color: var(--cor5);
      font-family: var(--fonte-padrão);
      font-weight: normal;
-     font-size: 1.8em;
+     font-size: 1.5em;
      text-align: center;
  }
 
  main  h2 {
      font-family: var(--fonte-destaque);
      color: var(--cor4);
-     font-size: 1.3em;
+     font-size: 1.2em;
      font-weight: bold;
      background-image: linear-gradient(to left,var(--cor5), transparent);
      text-indent: 8px;
@@ -121,7 +121,7 @@ nav > a {
      margin: 15px 0px;
      text-align: justify;
      text-indent: 30px;
-     font-size: 1.5em;
+     font-size: 1.0em;
      line-height: 2em;
 
 
@@ -178,11 +178,11 @@ nav > a {
      margin: -10px -10px 0px -10px;
      border-radius: 10px 10px 0px 0px;
      text-align: center;
-     font-size: 2em;
+     font-size: 1,5em;
  }
 
  aside p {
-     font-size:2em;
+     font-size:1,0em;
      font-weight: bold;
      color:white
  }
